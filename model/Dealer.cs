@@ -24,7 +24,7 @@ namespace BlackJack.model
 
     public bool NewGame(Player a_player)
     {
-      if (m_deck == null || IsGameOver())
+      if (m_deck == null || IsGameOver(a_player))
       {
         m_deck = new Deck();
         ClearHand();
@@ -36,7 +36,7 @@ namespace BlackJack.model
 
     public bool Hit(Player a_player)
     {
-      if (m_deck != null && m_hitRule.DoHit(this) && !IsGameOver())
+      if (m_deck != null && m_hitRule.DoHit(this) && !IsGameOver(a_player))
       {
         DealHand(a_player, true);
         return true;
@@ -64,9 +64,9 @@ namespace BlackJack.model
       } 
     }
 
-    public bool IsGameOver()
+    public bool IsGameOver(Player a_player)
     {
-        if (m_deck != null && /*CalcScore() >= g_hitLimit*/ m_hitRule.DoHit(this) != true)
+        if (m_deck != null && a_player.CalcScore() > g_maxScore || m_hitRule.DoHit(this) != true)
         {
             return true;
         }
