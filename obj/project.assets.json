@@ -687,11 +687,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Marcus\\1dv607\\blackjack_csharp-master\\Desktop.csproj",
+      "projectUniqueName": "C:\\Users\\Marcus\\1dv607\\blackjack_csharp-master\\1dv607-blackjack\\Desktop.csproj",
       "projectName": "Desktop",
-      "projectPath": "C:\\Users\\Marcus\\1dv607\\blackjack_csharp-master\\Desktop.csproj",
+      "projectPath": "C:\\Users\\Marcus\\1dv607\\blackjack_csharp-master\\1dv607-blackjack\\Desktop.csproj",
       "packagesPath": "C:\\Users\\Marcus\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Marcus\\1dv607\\blackjack_csharp-master\\obj\\",
+      "outputPath": "C:\\Users\\Marcus\\1dv607\\blackjack_csharp-master\\1dv607-blackjack\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
+
 
 namespace BlackJack.model
 {
@@ -15,6 +17,12 @@ namespace BlackJack.model
       m_dealer = new Dealer(new rules.RulesFactory());
       m_player = new Player();
     }
+
+	public void subscribToCards(IDrawCardObserver a_observer)
+	{
+		m_player.addSubscriber(a_observer);
+		m_dealer.addSubscriber(a_observer);
+	}
 
     public bool IsGameOver()
     {
@@ -42,13 +50,13 @@ namespace BlackJack.model
     }
 
     public IEnumerable<Card> GetDealerHand()
-    {
-      return m_dealer.GetHand();
+    {	
+	    return m_dealer.GetHand();
     }
 
     public IEnumerable<Card> GetPlayerHand()
     {
-      return m_player.GetHand();
+    	return m_player.GetHand();
     }
 
     public int GetDealerScore()

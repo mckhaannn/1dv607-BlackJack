@@ -20,3 +20,14 @@ C:\Users\Marcus\1dv607\blackjack_csharp-master\obj\Debug\netcoreapp2.1\Desktop.A
 C:\Users\Marcus\1dv607\blackjack_csharp-master\obj\Debug\netcoreapp2.1\Desktop.AssemblyInfo.cs
 C:\Users\Marcus\1dv607\blackjack_csharp-master\obj\Debug\netcoreapp2.1\Desktop.dll
 C:\Users\Marcus\1dv607\blackjack_csharp-master\obj\Debug\netcoreapp2.1\Desktop.pdb
+C:\Users\Marcus\1dv607\blackjack_csharp-master\1dv607-blackjack\bin\Debug\netcoreapp2.1\Desktop.deps.json
+C:\Users\Marcus\1dv607\blackjack_csharp-master\1dv607-blackjack\bin\Debug\netcoreapp2.1\Desktop.runtimeconfig.json
+C:\Users\Marcus\1dv607\blackjack_csharp-master\1dv607-blackjack\bin\Debug\netcoreapp2.1\Desktop.runtimeconfig.dev.json
+C:\Users\Marcus\1dv607\blackjack_csharp-master\1dv607-blackjack\bin\Debug\netcoreapp2.1\Desktop.dll
+C:\Users\Marcus\1dv607\blackjack_csharp-master\1dv607-blackjack\bin\Debug\netcoreapp2.1\Desktop.pdb
+C:\Users\Marcus\1dv607\blackjack_csharp-master\1dv607-blackjack\obj\Debug\netcoreapp2.1\Desktop.csprojAssemblyReference.cache
+C:\Users\Marcus\1dv607\blackjack_csharp-master\1dv607-blackjack\obj\Debug\netcoreapp2.1\Desktop.csproj.CoreCompileInputs.cache
+C:\Users\Marcus\1dv607\blackjack_csharp-master\1dv607-blackjack\obj\Debug\netcoreapp2.1\Desktop.AssemblyInfoInputs.cache
+C:\Users\Marcus\1dv607\blackjack_csharp-master\1dv607-blackjack\obj\Debug\netcoreapp2.1\Desktop.AssemblyInfo.cs
+C:\Users\Marcus\1dv607\blackjack_csharp-master\1dv607-blackjack\obj\Debug\netcoreapp2.1\Desktop.dll
+C:\Users\Marcus\1dv607\blackjack_csharp-master\1dv607-blackjack\obj\Debug\netcoreapp2.1\Desktop.pdb

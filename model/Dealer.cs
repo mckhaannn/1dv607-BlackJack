@@ -38,7 +38,7 @@ namespace BlackJack.model
     {
       if (m_deck != null && m_hitRule.DoHit(this) && !IsGameOver())
       {
-        DealHand(a_player);
+        DealHand(a_player, true);
         return true;
       }
       return false;
@@ -80,18 +80,18 @@ namespace BlackJack.model
             ShowHand();
             while (m_hitRule.DoHit(this))
             {
-                DealHand(this);
+                DealHand(this, true);
             }
             return true;
         }
         return false;
     }
 
-    public void DealHand(Player player)
+    public void DealHand(Player player, bool show)
     {
         Card c;
         c = m_deck.GetCard();
-        c.Show(true);
+        c.Show(show);
         player.DealCard(c);
     }
   }

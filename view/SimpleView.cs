@@ -59,5 +59,9 @@ namespace BlackJack.view
             }
             
         }
+        public void MakePause()
+        {
+            System.Threading.Thread.Sleep(2000);
+        }
     }
 }
