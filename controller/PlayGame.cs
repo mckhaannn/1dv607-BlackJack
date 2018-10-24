@@ -48,11 +48,12 @@ namespace BlackJack.controller
       return input != (int)view.Alternatives.quit;
 
     }
-    public void DrawCard(model.Card card)
+    public void DrawCard()
     {
-        m_view.MakePause();
+        Console.Clear();
         m_view.DisplayDealerHand(m_game.GetDealerHand(), m_game.GetDealerScore());
         m_view.DisplayPlayerHand(m_game.GetPlayerHand(), m_game.GetPlayerScore());
+        m_view.MakePause();
     }
   }
 }

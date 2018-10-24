@@ -21,7 +21,7 @@ namespace BlackJack.model
         {
             foreach (IDrawCardObserver observer in m_subscribers)
             {
-                observer.DrawCard(a_card);
+                observer.DrawCard();
             }
             m_hand.Add(a_card);
         }

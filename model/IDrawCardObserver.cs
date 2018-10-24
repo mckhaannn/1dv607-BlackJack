@@ -7,7 +7,7 @@ namespace BlackJack.model
 {
     interface IDrawCardObserver
     {
-        void DrawCard(Card card); 
+        void DrawCard(); 
     }
 
 }
