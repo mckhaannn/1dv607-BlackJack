@@ -2,9 +2,8 @@
   "ExpandedNodes": [
     "",
     "\\BlackJackModel",
-    "\\BlackJackModel\\ModelDefinition",
-    "\\model"
+    "\\BlackJackModel\\ModelDefinition"
   ],
-  "SelectedNode": "\\model\\Dealer.cs",
+  "SelectedNode": "\\BlackJackModel",
   "PreviewInSolutionExplorer": false
 }

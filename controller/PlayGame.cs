@@ -28,24 +28,24 @@ namespace BlackJack.controller
         m_view.DisplayGameOver(m_game.IsDealerWinner());
       }
 
-      int input = m_view.GetInput();
+      view.Alternatives input = (view.Alternatives)m_view.GetInput();
 
       switch (input)
       {
-        case (int)view.Alternatives.play:
+        case view.Alternatives.play:
           m_game.NewGame();
           break;
-        case (int)view.Alternatives.hit:
+        case view.Alternatives.hit:
           m_game.Hit();
           break;
-        case (int)view.Alternatives.stand:
+        case view.Alternatives.stand:
           m_game.Stand();
           break;
         default:
           break;
 
       }
-      return input != (int)view.Alternatives.quit;
+      return input != view.Alternatives.quit;
 
     }
     public void DrawCard()
